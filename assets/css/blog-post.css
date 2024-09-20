@@ -1,0 +1,16 @@
+@import url(../css/main.css);
+@import url(../css/about-nadhira.css);
+
+.sub-info{
+text-align: left;
+}
+
+.sub-info 
+p{
+padding: 33px;
+}
+
+.sub-info 
+li{
+font-weight: 900;
+} 

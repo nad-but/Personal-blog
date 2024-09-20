@@ -1,0 +1,18 @@
+#footer-part{
+background-color: #d1dae5;
+grid-area:ft;
+border-top: 0.8px solid #8092a6;
+font-style: italic;
+display: flex;
+flex-direction: column;
+font-size: x-small;
+margin: 11px;
+padding-bottom: 66px;
+}
+
+#footer-part 
+.social-icon 
+a{
+font-size: 22px;
+text-decoration: none;
+}

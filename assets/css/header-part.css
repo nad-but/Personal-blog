@@ -1,0 +1,82 @@
+/* header style*/
+#header-part{
+grid-area: hd;
+display: grid;
+grid-template-columns: repeat(10,1fr);
+grid-template-rows: repeat(2,1fr);
+grid-template-areas: 
+"logo logo logo logo hh1 hh1 hh1 hh1 subscribe subscribe"
+"nbar nbar nbar nbar nbar nbar nbar nbar subscribe subscribe";
+border-bottom:0.8px solid #8a9baf;
+margin: 15px;
+background-color: #d1dae5;
+}
+
+#header-part 
+h1{
+grid-area: hh1;
+justify-self: center;
+margin-right: 18%;
+font-size: 1.5rem;
+}
+
+.nadhira-logo{
+grid-area: logo;
+justify-self: left;
+width: 75px;
+height: 75px;
+}
+
+.navbar-part{
+grid-area: nbar;
+position: relative;
+display: flex;
+left: 5px;
+bottom: 8px;
+justify-self: start;
+}
+
+.navbar-part 
+a{
+font-size: 16px;
+color: #393939;
+text-decoration: none;
+font-weight: 400;
+margin: 9px;
+}
+
+a:hover{color: #83830c;}
+
+.navbar-part 
+input{
+border-radius: 10px;
+width: 211px;
+height: 15px;
+background-color: #d1dae5;
+margin: 10px;
+}
+
+.navbar-part 
+button{
+background-color:  #d1dae5;
+border: none;
+margin-bottom: 30px;
+}
+ 
+/* subscribe button */
+.subscr-btn{
+grid-area: subscribe;
+float: right;
+justify-self: end;
+border-radius: 27px;
+margin: 35% 9px 8px 10px;
+}
+
+.subscribe-btn{
+background-color: #3a4b5d;
+border-radius: 20px;
+color: #f3efec;
+width: 100%;
+height: 20px;
+margin-bottom: 8px;
+}

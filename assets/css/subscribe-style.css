@@ -1,0 +1,38 @@
+@import url(../css/main.css);
+
+/* subscribe part */
+.sub-card{
+grid-area: main;
+background-color: #d1dae5;
+order: 0.1px solid #8a9baf;
+border-radius: 27px;
+margin: 20px;
+width: 90%;
+}
+
+.subscribe-card{
+grid-area: subscribe;
+justify-self: center;
+border: 0.1px solid #8a9baf;
+border-radius: 27px;
+margin: 70px 25px;
+}
+
+.subscribe-card 
+input{
+display: block;
+border-radius: 20px;
+background-color: #d1dae5;
+margin: 23px 10px 23px 24%;
+width: 50%;
+text-align: center;
+}
+
+.subscribe-btn{
+background-color: #3a4b5d;
+border-radius: 20px;
+color: #f3efec;
+width: 50%;
+height: 20px;
+margin-bottom: 28px;
+}

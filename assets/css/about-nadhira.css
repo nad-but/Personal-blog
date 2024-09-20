@@ -1,0 +1,45 @@
+@import url(../css/main.css);
+
+#nadhira-inf{
+grid-area: main;
+background-color: #d1dae5;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 25px;
+}
+
+.info-nad{
+display: grid;
+grid-template-areas:
+"avatar name"
+"avatar comp";
+margin: 5% 15% 0% 20%;
+justify-content: left;
+}
+
+.info-nad
+p{
+text-decoration: underline;
+}
+.info-nad
+img{
+grid-area: avatar;
+width: 90px;
+height: 90px;
+border-radius: 50px;
+border: 0.1em solid #3a4b5d;
+}
+
+.info-nad
+p{
+margin-left: 40px ;
+text-align: left;
+}
+
+.bio{
+margin: 0% 15% 5% 20%;
+text-align: left;
+border-left: 8px solid #3a4b5d;
+border-bottom: 8px solid #3a4b5d;
+padding: 5px;
+}
